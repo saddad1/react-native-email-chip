@@ -27,8 +27,8 @@ onChange = (emails) => {
 ## Props
 | Prop          | Description   | Type   | Default |
 | :-----------: |:-------------:| :-----:| :-----: |
-| `emails`      | An array of email chips to be displayed  | Array | **Required** |
-|   `**onChange**`   | A handler to be called when array of email chips change.      |   Function | **Required** |
+| **`emails`**     | An array of email chips to be displayed  | Array | **Required** |
+|   **`onChange`**   | A handler to be called when array of email chips change.      |   Function | **Required** |
 | `chipContainerStyle` | Styling override for container surrounding chip  |    Object | {{backgroundColor: '#d2d5dd'}} |
 | `invalidChipContainerStyle` | Styling override for container surrounding invalid chip  |    Object | {{backgroundColor: '#CC2D22'}} |
 | `chipTextStyle` | Styling override for chip text | Object | {{color: 'black'}} |
