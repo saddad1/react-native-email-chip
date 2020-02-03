@@ -26,17 +26,19 @@ class App extends React.Component {
         <EmailChip
           emails={this.state.emails}
           onChange={this.onChange}
-          // chipContainerStyle={{backgroundColor:'red'}}
-          // invalidChipContainerStyle={{backgroundColor:'blue'}}
-          // chipTextStyle={{color:'#000'}}
-          // invalidChipTextStyle = {{color: 'blue'}}
-          // textInputStyles={{borderBottomWidth: 0}}
+        // placeholder="Email"
+        // placeholderTextColor="black"
+        // chipContainerStyle={{backgroundColor:'red'}}
+        // invalidChipContainerStyle={{backgroundColor:'blue'}}
+        // chipTextStyle={{color:'#000'}}
+        // invalidChipTextStyle = {{color: 'blue'}}
+        // textInputStyles={{borderBottomWidth: 0}}
         />
       </View>
     );
   }
 }
 const styles = StyleSheet.create({
-  mainView: { flex: 1, justifyContent: 'center' },
+  mainView: { flex: 1, justifyContent: 'center' }
 })
 export default App;

@@ -17,6 +17,8 @@ onChange = (emails) => {
  <EmailChip
     emails={this.state.emails}
     onChange={this.onChange}
+    // placeholder="Enter email"
+    // placeholderTextColor="black"
     // chipContainerStyle={{backgroundColor:'white'}}
     // invalidChipContainerStyle={{backgroundColor:'red'}}
     // chipTextStyle={{color:'#000'}}
@@ -34,6 +36,8 @@ onChange = (emails) => {
 | `chipTextStyle` | Styling override for chip text | Object | {{color: 'black'}} |
 | `invalidChipTextStyle` | Styling override for invalid chip text | Object | {{color: 'white'}} |
 | `textInputStyles` | Styling override for textinput | Object | {{borderBottomWidth : 1}}
+| `placeholder` | Custom placeholder text | String | "Enter email"
+| `placeholderTextColor` | Styling override for placeholder text color | String | "grey"
 
 
 
