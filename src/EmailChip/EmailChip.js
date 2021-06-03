@@ -35,7 +35,7 @@ class EmailChip extends Component {
         this.setState({
             emailId: ''
         }, () => {
-            this.input.focus();
+            // this.input.focus();
         });
     }
 
